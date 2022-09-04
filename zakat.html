@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="zakat.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zakat calculator</title>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">ZAKAT CALCULATOR</div>
+     </nav>    
+
+     <main>
+
+        <form method="GET">
+  
+           <div class="Back">
+            <h4>Total Gold Value</h4>
+              <input class="input-box" type="number" id="gold-value"  value="1000">
+           
+            <h4> Total Silver Value </h4>
+              <input class="input-box" type="number" id="silver-value" value="1000">
+           
+            <h4>Cash on Hand </h4>
+              <input class="input-box" type= "number" id="cash" value="1000">
+    
+            <h4>Cash in Bank </h4>
+              <input class="input-box" type="number" id="bank-cash" value="1000">
+
+            <h4>Real Estate</h4>            
+              <input class="input-box" type="number" id="real-estate" value="1000">
+
+            <h4>Liabilities</h4>
+              <input class="input-box" type="number" id="liabilites" value="1000">
+
+            <h4></h4>  
+            <input type="button" value="Calculate" id="calc_btn" onclick="calculate()">
+
+              <input class="input-box" type="text" id="result" readonly>
+           </div>
+  
+        </form>
+     </main>
+</body>
+</html>
